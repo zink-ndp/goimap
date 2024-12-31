@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .modal-close {
+        @apply hidden
+    }
+
+    .modal-open {
+        @apply absolute top-0 left-0 mx-auto my-auto z-50 w-screen h-screen bg-black/70 flex items-center justify-center
+    }
+
+}

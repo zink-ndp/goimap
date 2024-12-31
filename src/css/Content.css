@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .grid-item {
+        @apply flex flex-col w-full h-full border-[1px] rounded-md space-y-2 p-2 items-center justify-center text-red-500 hover:bg-blue-100 cursor-pointer transition-all duration-300 ease-in-out;
+    }
+
+    .grid-main-item {
+        @apply bg-blue-500 mx-auto w-28 h-28 flex items-center justify-center rounded-full row-span-2 text-5xl text-white font-bold
+    }
+}
